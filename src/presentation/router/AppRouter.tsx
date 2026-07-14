@@ -11,8 +11,8 @@ export default function AppRouter() {
                 <Route path="/register" element={<PlaceholderPage title="Register — Módulo 3" />} />
 
                 {/* Catálogo (público) — Módulo 4 / 5 */}
-                <Route path="/" element={<PlaceholderPage title="Catálogo — Módulo 4" />} />
-                <Route path="/catalog" element={<PlaceholderPage title="Catálogo — Módulo 4" />} />
+                <Route path="/" element={<PlaceholderPage title="Autor: Melanie Estevez" />} />
+                <Route path="/catalog" element={<PlaceholderPage title="Autor: Melanie Estevez" />} />
                 <Route path="/products/:id" element={<PlaceholderPage title="Detalle de producto — Módulo 5" />} />
 
                 {/* Requieren autenticación — Módulos 6, 7, 8 */}
